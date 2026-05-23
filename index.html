@@ -434,7 +434,7 @@
 <div class="container">
     <div class="hero">
         <h1>প্রিমিয়াম <span class="highlight">পোলো টি-শার্ট</span> কালেকশন</h1>
-        <p>নিজস্ব কারখানায় তৈরি | হাতের অনুভূতি ও ফিটিং আন্তর্জাতিক মানের | প্রতি পিস মাত্র ৪৫০ টাকা | ২ পিস একসাথে নিলে ৭৫০ টাকা</p>
+        <p>নিজস্ব কারখানায় তৈরি | হাতের অনুভূতি ও ফিটিং আন্তর্জাতিক মানের | প্রতি পিস মাত্র 350 টাকা | ২ পিস একসাথে নিলে 650 টাকা</p>
         <div class="badge-grid">
             <div class="badge"><i class="fas fa-check-circle"></i> 100% কটন ফিল</div>
             <div class="badge"><i class="fas fa-industry"></i> নিজস্ব ইন্ডাস্ট্রি</div>
@@ -471,14 +471,14 @@
                     <input type="radio" id="deliveryDhaka" name="delivery" value="70" checked>
                     <label for="deliveryDhaka">
                         <i class="fas fa-map-marker-alt"></i> ঢাকার ভেতরে<br>
-                        <small>৳৭০</small>
+                        <small>৳70</small>
                     </label>
                 </div>
                 <div class="delivery-option">
                     <input type="radio" id="deliveryOutside" name="delivery" value="130">
                     <label for="deliveryOutside">
                         <i class="fas fa-map-marker-alt"></i> ঢাকার বাইরে<br>
-                        <small>৳১৩০</small>
+                        <small>৳130</small>
                     </label>
                 </div>
             </div>
@@ -575,7 +575,7 @@
     ];
     
     let selectedProductIds = new Set();
-    const PRODUCT_PRICE = 450;
+    const PRODUCT_PRICE = 350;
 
     // EmailJS initialization (আসল ইমেইল নোটিফিকেশনের জন্য)
     (function initEmailJS() {
@@ -591,7 +591,7 @@
             productsHtml += `<tr style="border-bottom:1px solid #ddd;">
                                 <td style="padding:8px"><img src="${p.img}" width="70" style="border-radius:12px"/></td>
                                 <td style="padding:8px">${p.name}</td>
-                                <td style="padding:8px">৳450</td>
+                                <td style="padding:8px">৳350</td>
                             </tr>`;
         });
         const emailHtmlContent = `
